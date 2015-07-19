@@ -7,8 +7,50 @@
     android:background="#4A708B"
     tools:context="br.com.fontenovaimoveis.fontenapp.TrianguloI">
 
-    <TextView android:text="AQUI AQUI AQUI AQUI Andre funcionano denovo....." android:layout_width="wrap_content"
+    <TextView android:text="Digite a base do triangulo Isoceles"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textview1" />
+        android:textColor="#F7F4F4"
+        android:id="@+id/textviewtrianguloiso"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextBaseTrianguloIsoceles"
+        android:layout_below="@+id/textviewtrianguloiso"
+        android:layout_alignRight="@+id/textviewtrianguloiso"
+        android:layout_alignEnd="@+id/textviewtrianguloiso" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F7F4F4"
+        android:text="Digite a altura do triangulo isoceles"
+        android:id="@+id/textViewAlturaTrianguloIsoceles"
+        android:layout_below="@+id/editTextBaseTrianguloIsoceles"
+        android:layout_alignLeft="@+id/editTextBaseTrianguloIsoceles"
+        android:layout_alignStart="@+id/editTextBaseTrianguloIsoceles" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextAlturaTrianguloisoceles"
+        android:layout_below="@+id/textViewAlturaTrianguloIsoceles"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/buttonCalc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp" />
 
 </RelativeLayout>
