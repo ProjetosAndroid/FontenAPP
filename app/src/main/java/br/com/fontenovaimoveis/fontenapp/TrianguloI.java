@@ -1,11 +1,15 @@
 package br.com.fontenovaimoveis.fontenapp;
 
+import android.app.AlertDialog;
+import android.bluetooth.BluetoothGattCallback;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class TrianguloI extends ActionBarActivity {
@@ -18,11 +22,37 @@ private EditText alturatrianguloI;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_triangulo_i);
         BCalcular = (Button) findViewById(R.id.buttonCalc);
-        basetrainguloI = (EditText) findViewById(R.id.editTextB);
+        basetrainguloI = (EditText) findViewById(R.id.editTextBaseTrianguloIsoceles);
+        alturatrianguloI = (EditText) findViewById(R.id.editTextAlturaTrianguloisoceles);
+
+        BCalcular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(basetrainguloI.getText().toString().equals("")||(alturatrianguloI.getText().toString().equals(""))){
+                    Toast t = Toast.makeText(getApplicationContext(),"Informe o valor solicitado.",Toast.LENGTH_SHORT);
+                    t.show();
+                }else{
+                    double resultado;
+                    double baseIso = Float.parseFloat(basetrainguloI.getText().toString());
+                    double alturaIso = Float.parseFloat(alturatrianguloI.getText().toString());
+
+                    resultado = (baseIso*alturaIso/2);
+
+                    AlertDialog.Builder dialogo = new
+                            AlertDialog.Builder(TrianguloI.this);
+                    dialogo.setTitle("Resultado");
+                    dialogo.setMessage("A area do triangulo Isoceles e:" +
+                            String.valueOf(resultado));
+                    dialogo.setNeutralButton("OK",null);
+
+                    dialogo.show();
+                }
+            }
+        });
 
 
 
-        overridePendingTransition(R.anim.activity_filho_entrando,R.anim.activity_pai_saindo);
+        overridePendingTransition(R.anim.activity_filho_entrando, R.anim.activity_pai_saindo);
     }
 
 
