@@ -7,8 +7,45 @@
     android:background="#4A708B"
     tools:context="br.com.fontenovaimoveis.fontenapp.TrianguloI">
 
-    <TextView android:text="AQUI AQUI AQUI AQUI Andre funcionano....." android:layout_width="wrap_content"
+    <TextView android:text="Digite a base do triangulo Isoceles:" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textview1" />
+        android:id="@+id/textviewBaseTriangloIsoceles"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/textviewBaseTriangloIsoceles"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digite a altura do triangulo Isoceles"
+        android:id="@+id/textViewAlturaTriangloIsoceles"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextAlturaTriangloIsoceles"
+        android:layout_below="@+id/textViewAlturaTriangloIsoceles"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/buttonCalc"
+        android:layout_below="@+id/editTextAlturaTriangloIsoceles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp" />
 
 </RelativeLayout>
