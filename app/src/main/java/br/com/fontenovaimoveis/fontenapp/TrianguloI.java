@@ -4,14 +4,21 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
 
 
 public class TrianguloI extends ActionBarActivity {
+Button BCalcular;
+private EditText basetrainguloI;
+private EditText alturatrianguloI;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_triangulo_i);
+        BCalcular = (Button) findViewById(R.id.buttonCalc);
+        basetrainguloI = (EditText) findViewById(R.id.editTextB);
 
 
 
