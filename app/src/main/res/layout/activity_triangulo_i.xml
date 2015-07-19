@@ -5,10 +5,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:background="#4A708B"
-    tools:context="br.com.fontenovaimoveis.fontenapp.TrianguloI"
-    android:id="@+id/commit">
+    tools:context="br.com.fontenovaimoveis.fontenapp.TrianguloI">
 
-    <TextView android:text="Commit first" android:layout_width="wrap_content"
+    <TextView android:text="AQUI AQUI AQUI AQUI Andre....." android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textview1" />
 
