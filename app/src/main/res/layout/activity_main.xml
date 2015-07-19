@@ -55,7 +55,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:onClick="runApp7"
-                android:drawableTop="@mipmap/circulo"
+                android:drawableTop="@mipmap/cubo"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
                 android:text="Baskara"
@@ -98,7 +98,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:onClick="runApp8"
-                android:drawableTop="@mipmap/quadrado"
+                android:drawableTop="@mipmap/retangulo"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
                 android:text="Pitagoras"
@@ -141,10 +141,10 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:onClick="runApp9"
-                android:drawableTop="@mipmap/trianguloisosceles"
+                android:drawableTop="@mipmap/losango"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Losangulo"
+                android:text="Losango"
                 android:backgroundTint="#6A5ACD" />
 
         </LinearLayout>
@@ -160,7 +160,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:onClick="runApp10"
-                android:drawableTop="@mipmap/trianguloisosceles"
+                android:drawableTop="@mipmap/trapezio"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
                 android:text="Trapezio"
@@ -172,7 +172,7 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:onClick="runApp11"
-                android:drawableTop="@mipmap/trianguloretangulo"
+                android:drawableTop="@mipmap/hexagono"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
                 android:text="Hexagono"
@@ -184,10 +184,10 @@
                 android:layout_height="fill_parent"
                 android:layout_weight="1"
                 android:onClick="runApp12"
-                android:drawableTop="@mipmap/trianguloisosceles"
+                android:drawableTop="@mipmap/paralelograma"
                 android:paddingTop="27dp"
                 android:textColor="#F7F4F4"
-                android:text="Paralelogramo"
+                android:text="Paralelo grama"
                 android:backgroundTint="#6A5ACD" />
 
         </LinearLayout>
