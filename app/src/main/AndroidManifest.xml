@@ -11,8 +11,9 @@
         android:label="MathApp"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
-            android:label="MathApp" >
+            android:name=".SplashActivity"
+            android:label="MathApp"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.MAIN2" />
@@ -20,6 +21,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="MathApp" > //@string/title_activity_splash
+        </activity>
+
+
         <activity
             android:name=".Circulo"
             android:label="@string/title_activity_circulo"
@@ -28,7 +36,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
         </activity>
-
         <activity
             android:name=".Cubo"
             android:label="@string/title_activity_cubo"
@@ -36,7 +43,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
-
         </activity>
         <activity
             android:name=".Quadradro"
@@ -134,6 +140,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
         </activity>
+
     </application>
 
 </manifest>

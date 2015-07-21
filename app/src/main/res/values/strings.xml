@@ -17,4 +17,5 @@
     <string name="title_activity_trapezio">Trapezio</string>
     <string name="title_activity_hexagono">Hexagono</string>
     <string name="title_activity_paralelogramo">Paralelogramo</string>
+    <string name="title_activity_splash">SplashActivity</string>
 </resources>
