@@ -13,7 +13,7 @@
         <activity
             android:name=".SplashActivity"
             android:label="MathApp"
-            android:theme="@style/Theme.AppCompat.NoActionBar">
+            android:theme="@style/Theme.AppCompat.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.MAIN2" />
@@ -21,13 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
-            android:label="MathApp" > //@string/title_activity_splash
+            android:label="MathApp" >
+ //@string/title_activity_splash
         </activity>
-
-
         <activity
             android:name=".Circulo"
             android:label="@string/title_activity_circulo"
@@ -77,14 +75,6 @@
                 android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
         </activity>
         <activity
-            android:name=".Baskaraa"
-            android:label="@string/title_activity_baskaraa"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
-        </activity>
-        <activity
             android:name=".Baskara"
             android:label="@string/title_activity_baskara"
             android:parentActivityName=".MainActivity" >
@@ -95,14 +85,6 @@
         <activity
             android:name=".Pitagoras"
             android:label="@string/title_activity_pitagoras"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
-        </activity>
-        <activity
-            android:name=".Losango"
-            android:label="@string/title_activity_losango"
             android:parentActivityName=".MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -140,7 +122,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
         </activity>
-
+        <activity
+            android:name=".Potencia"
+            android:label="@string/title_activity_potencia"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
