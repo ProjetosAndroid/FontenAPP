@@ -22,4 +22,5 @@
     <string name="title_activity_esfera">Esfera</string>
     <string name="title_activity_cilindro">Cilindro</string>
     <string name="title_activity_juros_simples">Juros Simples</string>
+    <string name="title_activity_juros_composto">Juros Composto</string>
 </resources>
