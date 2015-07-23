@@ -14,14 +14,16 @@
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/editTextValorCirculo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
         android:id="@+id/editTextValorCirculo"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
@@ -35,6 +37,6 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="57dp" />
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>

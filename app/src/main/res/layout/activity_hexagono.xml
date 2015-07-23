@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextLadoHexagono"
         android:layout_below="@+id/TextViewApotema"
         android:layout_alignRight="@+id/TextViewApotema"
@@ -32,6 +34,7 @@
         android:textColor="#F7F4F4"
         android:text="Digite o Radio se não sabe digite 0:"
         android:id="@+id/textView9"
+        android:layout_marginTop="32dp"
         android:layout_below="@+id/editTextLadoHexagono"
         android:layout_centerHorizontal="true" />
 
@@ -40,6 +43,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextRadioHexagono"
         android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true" />
@@ -50,6 +55,7 @@
         android:textColor="#F7F4F4"
         android:text="Digite a apotema se não sabe digite 0:"
         android:id="@+id/textView10"
+        android:layout_marginTop="32dp"
         android:layout_below="@+id/editTextRadioHexagono"
         android:layout_alignLeft="@+id/editTextRadioHexagono"
         android:layout_alignStart="@+id/editTextRadioHexagono" />
@@ -59,6 +65,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextApotemaHexagono"
         android:layout_below="@+id/textView10"
         android:layout_centerHorizontal="true" />
@@ -68,8 +76,8 @@
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="102dp" />
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/editTextApotemaHexagono"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

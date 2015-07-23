@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextBaseMaior"
         android:layout_below="@+id/TextBase"
         android:layout_centerHorizontal="true" />
@@ -30,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="Informe a Base Menor:"
         android:id="@+id/textViewBasemenor"
+        android:layout_marginTop="32dp"
         android:layout_below="@+id/editTextBaseMaior"
         android:layout_alignLeft="@+id/TextBase"
         android:layout_alignStart="@+id/TextBase" />
@@ -39,6 +42,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:layout_marginTop="12dp"
+        android:background="#A9A9A9"
         android:id="@+id/editTextBasemenor"
         android:layout_below="@+id/textViewBasemenor"
         android:layout_alignLeft="@+id/editTextBaseMaior"
@@ -49,7 +54,7 @@
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_marginTop="145dp"
+        android:layout_marginTop="53dp"
         android:layout_below="@+id/editTextBasemenor"
         android:layout_centerHorizontal="true" />
 

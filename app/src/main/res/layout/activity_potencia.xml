@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:layout_marginTop="12dp"
+        android:background="#A9A9A9"
         android:id="@+id/editTextBasePotencia"
         android:layout_below="@+id/textviewBasePotencia"
         android:layout_centerHorizontal="true" />
@@ -28,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
+        android:layout_marginTop="32dp"
         android:text="Digite o Expoente:"
         android:id="@+id/textViewExpoente"
         android:layout_below="@+id/editTextBasePotencia"
@@ -38,6 +41,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:layout_marginTop="12dp"
+        android:background="#A9A9A9"
         android:id="@+id/editTextExpoentePotencia"
         android:layout_below="@+id/textViewExpoente"
         android:layout_centerHorizontal="true" />
@@ -50,6 +55,6 @@
         android:layout_below="@+id/editTextExpoentePotencia"
         android:layout_alignLeft="@+id/textviewBasePotencia"
         android:layout_alignStart="@+id/textviewBasePotencia"
-        android:layout_marginTop="155dp" />
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>

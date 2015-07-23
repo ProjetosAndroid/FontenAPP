@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/TextView1"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="53dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -22,18 +22,19 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
         android:id="@+id/editTextLadoRetangulo"
         android:layout_below="@+id/TextView1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="53dp" />
+        android:layout_marginTop="34dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/editTextLadoRetangulo"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="69dp" />
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>

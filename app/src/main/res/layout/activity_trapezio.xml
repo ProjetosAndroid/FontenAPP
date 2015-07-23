@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextBaseMaiorTrapezio"
         android:layout_below="@+id/textViewBaseMaior"
         android:layout_centerHorizontal="true" />
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
         android:text="Digite a Base Menor:"
+        android:layout_marginTop="32dp"
         android:id="@+id/textView8"
         android:layout_below="@+id/editTextBaseMaiorTrapezio"
         android:layout_alignLeft="@+id/textViewBaseMaior"
@@ -39,6 +42,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextBaseMenorTrapezio"
         android:layout_below="@+id/textView8"
         android:layout_alignRight="@+id/editTextBaseMaiorTrapezio"
@@ -49,6 +54,7 @@
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
         android:text="Digite a Altura:"
+        android:layout_marginTop="32dp"
         android:id="@+id/textViewAltura"
         android:layout_below="@+id/editTextBaseMenorTrapezio"
         android:layout_centerHorizontal="true" />
@@ -58,6 +64,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextAlturaTrapezio"
         android:layout_below="@+id/textViewAltura"
         android:layout_alignRight="@+id/editTextBaseMenorTrapezio"
@@ -70,6 +78,6 @@
         android:id="@+id/buttonCalc"
         android:layout_below="@+id/editTextAlturaTrapezio"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="95dp" />
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>

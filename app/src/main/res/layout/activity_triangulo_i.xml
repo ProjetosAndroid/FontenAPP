@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextBaseTrianguloIsoceles"
         android:layout_below="@+id/textviewtrianguloiso"
         android:layout_alignRight="@+id/textviewtrianguloiso"
@@ -29,6 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
+        android:layout_marginTop="32dp"
         android:text="Digite a altura do triangulo isoceles"
         android:id="@+id/textViewAlturaTrianguloIsoceles"
         android:layout_below="@+id/editTextBaseTrianguloIsoceles"
@@ -40,6 +43,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextAlturaTrianguloisoceles"
         android:layout_below="@+id/textViewAlturaTrianguloIsoceles"
         android:layout_centerHorizontal="true" />
@@ -49,8 +54,8 @@
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/editTextAlturaTrianguloisoceles"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="151dp" />
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>

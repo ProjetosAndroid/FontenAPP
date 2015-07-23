@@ -21,6 +21,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextCateto1TriangloR"
         android:layout_below="@+id/textviewPrimeiroCateto"
         android:layout_centerHorizontal="true" />
@@ -29,6 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
+        android:layout_marginTop="32dp"
         android:text="Digite o segundo cateto se não souber digite 0:"
         android:id="@+id/textView11"
         android:layout_below="@+id/editTextCateto1TriangloR"
@@ -39,6 +42,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextCateto2TriangloR"
         android:layout_below="@+id/textView11"
         android:layout_centerHorizontal="true" />
@@ -47,6 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
+        android:layout_marginTop="32dp"
         android:text="Digite o terceiro cateto se não souber digite 0:"
         android:id="@+id/textView12"
         android:layout_below="@+id/editTextCateto2TriangloR"
@@ -57,6 +63,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextCateto3TriangloR"
         android:layout_below="@+id/textView12"
         android:layout_alignRight="@+id/editTextCateto2TriangloR"
@@ -67,7 +75,7 @@
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_marginTop="121dp"
+        android:layout_marginTop="53dp"
         android:layout_below="@+id/editTextCateto3TriangloR"
         android:layout_centerHorizontal="true" />
 

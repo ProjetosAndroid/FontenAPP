@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:layout_marginTop="12dp"
+        android:background="#A9A9A9"
         android:id="@+id/editTextBaseParalelogramo"
         android:layout_below="@+id/textviewBaseParalelo"
         android:layout_alignLeft="@+id/textviewBaseParalelo"
@@ -29,6 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
+        android:layout_marginTop="32dp"
         android:text="Digite a Altura do Paralelogramo"
         android:id="@+id/textViewAlturaParalelo"
         android:layout_below="@+id/editTextBaseParalelogramo"
@@ -39,17 +42,19 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:layout_marginTop="12dp"
+        android:background="#A9A9A9"
         android:id="@+id/editTextAlturaParalelogramo"
-        android:layout_alignTop="@+id/textViewAlturaParalelo"
-        android:layout_alignLeft="@+id/editTextBaseParalelogramo"
-        android:layout_alignStart="@+id/editTextBaseParalelogramo" />
+        android:layout_below="@+id/textViewAlturaParalelo"
+        android:layout_alignLeft="@+id/textViewAlturaParalelo"
+        android:layout_alignStart="@+id/textViewAlturaParalelo" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="53dp"
         android:layout_below="@+id/editTextAlturaParalelogramo"
         android:layout_centerHorizontal="true" />
 
