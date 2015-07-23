@@ -1,17 +1,64 @@
 package br.com.fontenovaimoveis.fontenapp;
 
+import android.app.AlertDialog;
+import android.bluetooth.BluetoothGattCallback;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class JurosSimples extends ActionBarActivity {
+Button BCalcular;
+    private EditText Capital;
+    private EditText taxa;
+    private EditText meses;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_juros_simples);
+        BCalcular = (Button) findViewById(R.id.buttonCalc);
+        Capital = (EditText) findViewById(R.id.editTextJurosCapital);
+        taxa = (EditText) findViewById(R.id.editTextTaxaJuros);
+        meses = (EditText) findViewById(R.id.editTextMesesJuros);
+
+        BCalcular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(((Capital.getText().toString().equals(""))||(taxa.getText().toString().equals(""))||(meses.getText().toString().equals("")))){
+                    Toast t = Toast.makeText(getApplicationContext(),"Informe o valor solicitado.",Toast.LENGTH_SHORT);
+                    t.show();
+                }else{
+                    double juros;
+                    double montante;
+                    double c = Float.parseFloat(Capital.getText().toString());
+                    double t = Float.parseFloat(taxa.getText().toString());
+                    double m = Float.parseFloat(meses.getText().toString());
+
+                    juros = c * t * m;
+                    montante = c * (1 +(t * m));
+
+                    AlertDialog.Builder dialogo = new AlertDialog.Builder(JurosSimples.this);
+                    dialogo.setTitle("Resultado");
+                    dialogo.setMessage("O juros e:" + String.valueOf(juros));
+                    dialogo.setNeutralButton("OK",null);
+
+                    dialogo.show();
+
+                    AlertDialog.Builder dialogo2 = new AlertDialog.Builder(JurosSimples.this);
+                    dialogo.setTitle("Resultado");
+                    dialogo.setMessage("O montante e:" + String.valueOf(montante));
+                    dialogo.setNeutralButton("OK",null);
+
+                    dialogo.show();
+                }
+            }
+        });
     }
 
     @Override
