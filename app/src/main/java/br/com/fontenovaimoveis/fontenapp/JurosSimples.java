@@ -59,6 +59,7 @@ Button BCalcular;
                 }
             }
         });
+        overridePendingTransition(R.anim.activity_filho_entrando, R.anim.activity_pai_saindo);
     }
 
     @Override
@@ -75,11 +76,21 @@ Button BCalcular;
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        switch (id){
+            case android.R.id.home:
+                finish();
+                return true;
+
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        //if (id == R.id.action_settings) {
+           // return true;
         }
 
         return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.acitivity_pai_antrando,R.anim.activity_filho_saindo);
     }
 }
