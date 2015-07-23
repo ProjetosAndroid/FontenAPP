@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#4A708B"
+    tools:context="br.com.fontenovaimoveis.fontenapp.JurosSimples">
+
+    <TextView android:text="Digite o Principal(Capital):"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F7F4F4"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textviewCapitalJuros" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextJurosCapital"
+        android:layout_below="@+id/textviewCapitalJuros"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#F7F4F4"
+        android:layout_height="wrap_content"
+        android:text="Digite a taxa do juros:"
+        android:id="@+id/textViewTaxaJuros"
+        android:layout_below="@+id/editTextJurosCapital"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextTaxaJuros"
+        android:layout_below="@+id/textViewTaxaJuros"
+        android:layout_alignLeft="@+id/editTextJurosCapital"
+        android:layout_alignStart="@+id/editTextJurosCapital" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F7F4F4"
+        android:text="Digite os meses de juros:"
+        android:id="@+id/textViewMesesJuros"
+        android:layout_below="@+id/editTextTaxaJuros"
+        android:layout_alignRight="@+id/textViewTaxaJuros"
+        android:layout_alignEnd="@+id/textViewTaxaJuros" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editTextMesesJuros"
+        android:layout_below="@+id/textViewMesesJuros"
+        android:layout_alignLeft="@+id/editTextTaxaJuros"
+        android:layout_alignStart="@+id/editTextTaxaJuros" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/buttonCalc"
+        android:layout_marginTop="96dp"
+        android:layout_below="@+id/editTextMesesJuros"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

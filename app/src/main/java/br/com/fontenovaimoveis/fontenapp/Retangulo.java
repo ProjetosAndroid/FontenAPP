@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class Retangulo extends ActionBarActivity {
@@ -27,7 +28,8 @@ private EditText Lado1;
             @Override
             public void onClick(View v) {
                 if((Base1.getText().toString().equals(""))||(Lado1.getText().toString().equals(""))){
-
+                    Toast t = Toast.makeText(getApplicationContext(),"Informe o valor solicitado.",Toast.LENGTH_SHORT);
+                    t.show();
                 }else{
 
                 double resultadoretangulo;
