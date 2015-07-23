@@ -20,4 +20,6 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_potencia">Potência</string>
     <string name="title_activity_esfera">Esfera</string>
+    <string name="title_activity_cilindro">Cilindro</string>
+    <string name="title_activity_juros_simples">Juros Simples</string>
 </resources>
