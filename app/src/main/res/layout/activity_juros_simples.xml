@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextJurosCapital"
         android:layout_below="@+id/textviewCapitalJuros"
         android:layout_centerHorizontal="true" />
@@ -29,6 +31,7 @@
         android:textColor="#F7F4F4"
         android:layout_height="wrap_content"
         android:text="Digite a taxa do juros:"
+        android:layout_marginTop="32dp"
         android:id="@+id/textViewTaxaJuros"
         android:layout_below="@+id/editTextJurosCapital"
         android:layout_centerHorizontal="true" />
@@ -38,6 +41,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextTaxaJuros"
         android:layout_below="@+id/textViewTaxaJuros"
         android:layout_alignLeft="@+id/editTextJurosCapital"
@@ -48,6 +53,7 @@
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
         android:text="Digite os meses de juros:"
+        android:layout_marginTop="32dp"
         android:id="@+id/textViewMesesJuros"
         android:layout_below="@+id/editTextTaxaJuros"
         android:layout_alignRight="@+id/textViewTaxaJuros"
@@ -58,6 +64,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextMesesJuros"
         android:layout_below="@+id/textViewMesesJuros"
         android:layout_alignLeft="@+id/editTextTaxaJuros"
@@ -68,8 +76,8 @@
         android:layout_height="wrap_content"
         android:text="Calcular"
         android:id="@+id/buttonCalc"
-        android:layout_marginTop="96dp"
         android:layout_below="@+id/editTextMesesJuros"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>

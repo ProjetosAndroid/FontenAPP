@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextCapitalJurosCompostos"
         android:layout_below="@+id/textviewCapitalJurosCompostos"
         android:layout_centerHorizontal="true" />
@@ -29,6 +31,7 @@
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
         android:text="Digite a Taxa:"
+        android:layout_marginTop="32dp"
         android:id="@+id/textViewTaxaJurosCompostos"
         android:layout_below="@+id/editTextCapitalJurosCompostos"
         android:layout_centerHorizontal="true" />
@@ -38,6 +41,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextTaxaJurosCompostos"
         android:layout_below="@+id/textViewTaxaJurosCompostos"
         android:layout_alignLeft="@+id/editTextCapitalJurosCompostos"
@@ -48,6 +53,7 @@
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
         android:text="Digite os Meses:"
+        android:layout_marginTop="32dp"
         android:id="@+id/textViewMesesJurosCompostos"
         android:layout_below="@+id/editTextTaxaJurosCompostos"
         android:layout_centerHorizontal="true" />
@@ -57,6 +63,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextMesesJurosCompostos"
         android:layout_below="@+id/textViewMesesJurosCompostos"
         android:layout_centerHorizontal="true" />
@@ -68,6 +76,6 @@
         android:id="@+id/buttonCalc"
         android:layout_below="@+id/editTextMesesJurosCompostos"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="78dp" />
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>

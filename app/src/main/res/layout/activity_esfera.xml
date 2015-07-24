@@ -19,6 +19,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextAreaEsfera"
         android:layout_below="@+id/textviewAreaEsfera"
         android:layout_centerHorizontal="true" />
@@ -27,6 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#F7F4F4"
+        android:layout_marginTop="32dp"
         android:text="Digite o raio para Calcular Volume e 0 se não for preciso:"
         android:id="@+id/textView13"
         android:layout_below="@+id/editTextAreaEsfera"
@@ -37,6 +40,8 @@
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:ems="10"
+        android:background="#A9A9A9"
+        android:layout_marginTop="12dp"
         android:id="@+id/editTextAreaVolumeEsfera"
         android:layout_below="@+id/textView13"
         android:layout_alignRight="@+id/editTextAreaEsfera"
@@ -49,6 +54,6 @@
         android:id="@+id/buttonCalc"
         android:layout_below="@+id/editTextAreaVolumeEsfera"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="151dp" />
+        android:layout_marginTop="53dp" />
 
 </RelativeLayout>
