@@ -152,7 +152,11 @@
         </activity>
         <activity
             android:name=".Seno"
-            android:label="@string/title_activity_seno" >
+            android:label="@string/title_activity_seno"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
         </activity>
     </application>
 
