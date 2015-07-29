@@ -27,7 +27,7 @@ Button BCalcular;
         BCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(BCalcular.getText().toString().equals("")||CO.getText().toString().equals("")||HI.getText().toString().equals("")){
+                if(CO.getText().toString().equals("")||HI.getText().toString().equals("")){
                     Toast t = Toast.makeText(getApplicationContext(),"Informe o valor solicitado.",Toast.LENGTH_SHORT);
                     t.show();
                 }else{
@@ -47,9 +47,10 @@ Button BCalcular;
                     dialogo.show();
 
                 }
-                overridePendingTransition(R.anim.activity_filho_entrando,R.anim.activity_pai_saindo);
+
             }
         });
+        overridePendingTransition(R.anim.activity_filho_entrando, R.anim.activity_pai_saindo);
     }
 
     @Override
