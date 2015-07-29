@@ -25,4 +25,5 @@
     <string name="title_activity_juros_composto">Juros Composto</string>
     <string name="title_activity_seno">Seno</string>
     <string name="title_activity_coseno">Coseno</string>
+    <string name="title_activity_tangente">Tangente</string>
 </resources>

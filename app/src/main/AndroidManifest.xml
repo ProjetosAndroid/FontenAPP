@@ -166,6 +166,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
         </activity>
+        <activity
+            android:name=".Tangente"
+            android:label="@string/title_activity_tangente"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.fontenovaimoveis.fontenapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
