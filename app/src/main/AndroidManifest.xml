@@ -150,6 +150,10 @@
             android:name=".JurosComposto"
             android:label="@string/title_activity_juros_composto" >
         </activity>
+        <activity
+            android:name=".Seno"
+            android:label="@string/title_activity_seno" >
+        </activity>
     </application>
 
 </manifest>
